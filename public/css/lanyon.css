@@ -1,3 +1,5 @@
+@import url("//hello.myfonts.net/count/2cf20d");
+
 /*
  *  ___
  * /\_ \
@@ -32,21 +34,59 @@
  * Update the foundational and global aspects of the page.
  */
 
+@font-face {font-family: 'TolyerBookno2';src: url('../fonts/2CF20D_0_0.eot');src: url('../fonts/2CF20D_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CF20D_0_0.woff2') format('woff2'),url('../fonts/2CF20D_0_0.woff') format('woff'),url('../fonts/2CF20D_0_0.ttf') format('truetype');}
+@font-face {font-family: 'TolyerLightno3';src: url('../fonts/2CF20D_1_0.eot');src: url('../fonts/2CF20D_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CF20D_1_0.woff2') format('woff2'),url('../fonts/2CF20D_1_0.woff') format('woff'),url('../fonts/2CF20D_1_0.ttf') format('truetype');}
+@font-face {font-family: 'TolyerLightno2';src: url('../fonts/2CF20D_2_0.eot');src: url('../fonts/2CF20D_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/2CF20D_2_0.woff2') format('woff2'),url('../fonts/2CF20D_2_0.woff') format('woff'),url('../fonts/2CF20D_2_0.ttf') format('truetype');}
+
+
 /* Prevent scroll on narrow devices */
 html,
 body {
   overflow-x: hidden;
+  background-color: #F1F0E9;
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "ff-tisa-web-pro", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #313131;
-  letter-spacing: -.025rem;
+  font-weight: normal;
+  font-style: normal;
+  color: #24231D;
+  line-height: 1.2;
+}
+
+h1 {
+  font-family: TolyerBookno2;
+  font-size: 54px;
+}
+
+h1 {
+  font-family: TolyerBookno2;
+  font-size: 46px;
+}
+
+h3 {
+  font-family: TolyerBookno2;
+  font-size: 34px;
+}
+
+h4 {
+  font-family: TolyerLightno2;
+  font-size: 28px;
+}
+
+h5 {
+  font-family: TolyerLightno2;
+  font-size: 22px;
+}
+
+h6 {
+  font-family: TolyerLightno3;
+  font-size: 16px;
 }
 
 /*
@@ -87,31 +127,45 @@ h1, h2, h3, h4, h5, h6 {
 /*
  * Masthead
  *
- * Super small header above the content for site name and short description.
+ * Header above the content for site name and short description.
  */
 
 .masthead {
+  height: 225px;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+  background-color: #24231D;
+  border: 8px solid #111;
+  margin-bottom: 1.5rem;
+}
+
+.masthead-avatar {
+  background: url('../img/avatar_dennis.png') no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+  height: 129px;
+  width: 129px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.masthead-title, .masthead-subtitle {
+  text-align: center;
 }
 
 .masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
+  color: #F1F0E9;
+  margin-top: 6px;
 }
 
 .masthead-title a {
-  color: #505050;
+  color: #F1F0E9;
 }
 
-.masthead-title small {
-  font-size: 75%;
-  font-weight: 400;
-  color: #c0c0c0;
-  letter-spacing: 0;
+.masthead-subtitle {
+  margin-top: 0;
+  color: #999;
 }
 
 @media (max-width: 48em) {
@@ -152,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255, 255, 255, .6);
-  background-color: #202020;
+  background-color: #111;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -220,8 +274,8 @@ a.sidebar-nav-item:focus {
   display: block;
   width: 2.2rem;
   padding: .5rem .65rem;
-  color: #505050;
-  background-color: #fff;
+  color: #F1F0E9;
+  background-color: #111;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -261,7 +315,7 @@ a.sidebar-nav-item:focus {
 
 /* Slide effect
  *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
+ * Handle the sliding effects of the sidebar and content in one spot, separate
  * from the default styles.
  *
  * As an a heads up, we don't use `transform: translate3d()` here because when
@@ -308,7 +362,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
 }
 
 /* Blog post or page title */
