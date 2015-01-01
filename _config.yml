@@ -10,7 +10,7 @@ relative_permalinks: true
 
 # Setup
 title:               Dennis Erny
-tagline:             'Stories from the Frontend'
+tagline:             'Frontend Developer'
 description:         'Sr. Frontend Engineer <a href="https://twitter.com/sysomos">@sysomos</a>, <a href="http://armchairanalysis.com">NFL Data Analyst</a> and passionate student of UX/UI Design.'
 url:                 http://lanyon.getpoole.com
 baseurl:             /
