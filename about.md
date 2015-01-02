@@ -9,7 +9,7 @@ My focus at the moment is on:
 
 * AngularJS 1.x application development with a mind towards 'thin controllers' and a path towards less painful 2.0 migration.
 * Building modular Web components that leverage Angular Directives, Sass and BEM naming conventions.
-* UI Design with Adobe Illustrator and live mobile/desktop mock-ups using cloud-based tools such as UXPin.
+* UI Design and vector logo design with Adobe Illustrator and live mobile/desktop mock-ups using cloud-based tools such as UXPin.
 * Continuous Integration using Jenkins in concert with Grunt, Jasmine, Karma and friends.
 
 # Let's Converse
