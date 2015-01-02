@@ -38,7 +38,6 @@
 /* Prevent scroll on narrow devices */
 html,
 body {
-  overflow-x: hidden;
   background-color: #F1F0E9;
 }
 
@@ -56,11 +55,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: TolyerBookno2;
-  font-size: 54px;
-}
-
-h2 {
   font-family: TolyerBookno2;
   font-size: 46px;
 }
