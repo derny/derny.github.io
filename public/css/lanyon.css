@@ -145,6 +145,23 @@ ul.links-social-media i:hover  {
   opacity: 1;
 }
 
+.btn {
+  font-family: "ff-tisa-web-pro";
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 4px 8px;
+  border: 0;
+  background: #778A2A;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+
+.btn:hover {
+  background: #687925;
+}
+
 
 /*
  * Masthead
