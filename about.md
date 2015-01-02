@@ -3,28 +3,22 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+## About Me
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Greetings, my name is Dennis Erny and I am a Senior Front-end Engineer based in the beautiful city of Toronto, Canada.
 
-There are currently two themes built on Poole:
+My focus at the moment is on:
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+* AngularJS 1.x application development with a mind towards 'thin controllers' and a path towards less painful 2.0 migration.
+* Building modular Web components that leverage Angular Directives, Sass and BEM naming conventions.
+* UI Design with Adobe Illustrator and live mobile/desktop mock-ups using cloud-based tools such as UXPin.
+* Continuous Integration using Jenkins in concert with Grunt, Jasmine, Karma and friends.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## Let's Converse
 
-## Setup
+For inquiries related to client-side application consulting and/or design, don't hesitate to contact me on Twitter or LinkedIn.
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+<ul class="links-social-media">
+  <li><a href="http://twitter/denniserny">Twitter</a></li>
+  <li><a href="https://ca.linkedin.com/pub/dennis-erny/30/277/263">LinkedIn</a></li>
+</ul>
