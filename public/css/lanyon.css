@@ -347,7 +347,7 @@ a.sidebar-nav-item:focus {
   top: 1rem;
   left: 1rem;
   display: block;
-  width: 2.2rem;
+  width: 2.25rem;
   padding: .5rem .65rem;
   color: #F1F0E9;
   background-color: #111;
@@ -359,9 +359,11 @@ a.sidebar-nav-item:focus {
   display: block;
   content: "";
   width: 100%;
-  padding-bottom: .125rem;
+  padding-bottom: .15rem;
   border-top: .375rem double;
   border-bottom: .125rem solid;
+  border-top-width: .45rem;
+  border-bottom-width: .15rem;
 
   /* Make the border inside the box */
   -webkit-box-sizing: border-box;
@@ -373,19 +375,6 @@ a.sidebar-nav-item:focus {
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   color: #fff;
   background-color: #505050;
-}
-
-@media (min-width: 30.1em) {
-  .sidebar-toggle {
-    position: fixed;
-    width: 2.25rem;
-  }
-
-  .sidebar-toggle:before {
-    padding-bottom: .15rem;
-    border-top-width: .45rem;
-    border-bottom-width: .15rem;
-  }
 }
 
 /* Slide effect
@@ -467,6 +456,10 @@ a.sidebar-nav-item:focus {
   margin-top: -.5rem;
   margin-bottom: 0.5rem;
   color: #9a9a9a;
+}
+
+.posts .post:nth-child(3n) {
+  border-bottom: 0;
 }
 
 /* Related posts */
