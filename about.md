@@ -12,7 +12,7 @@ My focus at the moment is on:
 * UI Design and vector logo design with Adobe Illustrator and live mobile/desktop mock-ups using cloud-based tools such as UXPin.
 * Continuous Integration using Jenkins in concert with Grunt, Jasmine, Karma and friends.
 
-# Let's Converse
+## Let's Converse
 
 For inquiries related to client-side application consulting and/or design, don't hesitate to contact me on Twitter or LinkedIn.
 
