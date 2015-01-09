@@ -3,40 +3,31 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
+<h2>Hola!</h2>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<p>Greetings, my name is Dennis Erny and I am a Senior Front-end Engineer based in the beautiful city of Toronto, Canada.</p>
 
-    {{ post.excerpt }}
+<p>My focus at the moment is on:</p>
 
-    <a href="{{ post.url }}"><button class="btn">FULL ARTICLE</button></a>
+<ul>
+  <li>AngularJS 1.x application development with a mind towards 'thin controllers' and a path towards less painful 2.0 migration.</li>
+  <li>Building modular Web components that leverage Angular Directives, Sass and BEM naming conventions.</li>
+  <li>UI Design and vector logo design with Adobe Illustrator and live mobile/desktop mock-ups using cloud-based tools such as UXPin.</li>
+  <li>Continuous Integration using Jenkins in concert with Grunt, Jasmine, Karma and friends.</li>
+</ul>
 
-    <!--{{ post.content }}-->
-  </div>
-  {% endfor %}
-</div>
+<h2>Reuze</h2>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<p>Back by popular demand: my minimal blog-centric framework, Reuze, is back from the dead.</p>
+
+<p>You can now access the HTML builder at: <a href="http://derny.github.io/reuze">derny.github.io/reuze</a>. The core CSS (less than 10KB) is still available at <a href="https://github.com/derny/reuze">github.com/derny/reuze</a>.
+
+<h2>Let's Converse</h2>
+
+<p>For inquiries related to client-side application consulting and/or design, don't hesitate to contact me on <strong>Twitter</strong> or <strong>LinkedIn</strong>.</p>
+
+<ul class="links-social-media">
+  <li><a href="https://twitter.com/denniserny"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+  <li><a href="https://ca.linkedin.com/pub/dennis-erny/30/277/263"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+</ul>
 
