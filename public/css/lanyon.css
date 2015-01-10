@@ -162,6 +162,18 @@ ul.logo-grid li {
   background: url('../img/logo-grid.jpg') no-repeat;
 }
 
+@media (max-width: 38em) {
+
+  ul.logo-grid {
+    height: 370px;
+  }
+
+  ul.logo-grid li {
+    width: 33.3%;
+  }
+
+}
+
 ul.logo-grid li a {
   display: block;
   height: 100%;
