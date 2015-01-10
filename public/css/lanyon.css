@@ -148,6 +148,8 @@ h6 {
 ul.logo-grid {
   padding: 0;
   margin: 0;
+  height: 280px;
+  border: 5px solid #ddd;
 }
 
 ul.logo-grid li {
@@ -264,11 +266,6 @@ ul.logo-grid li.aa {
 
 ul.logo-grid li.aa:hover {
   background-position: -402px -445px;
-}
-
-.first {
-  padding-top: 15px;
-  clear: both;
 }
 
 ul.links-social-media {
