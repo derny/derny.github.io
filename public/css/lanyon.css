@@ -144,6 +144,134 @@ h6 {
   src: url('../fonts/2CF20D_2_0.eot?#iefix') format('embedded-opentype'), url('../fonts/2CF20D_2_0.woff2') format('woff2'), url('../fonts/2CF20D_2_0.woff') format('woff'), url('../fonts/2CF20D_2_0.ttf') format('truetype');
 }
 
+
+ul.logo-grid {
+  padding: 0;
+  margin: 0;
+}
+
+ul.logo-grid li {
+  float: left;
+  list-style-type: none;
+  width: 25%;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  background: url('../img/logo-grid.jpg') no-repeat;
+}
+
+ul.logo-grid li {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background 0.15s ease-in;
+}
+
+ul.logo-grid li:hover {
+  cursor: pointer;
+}
+
+ul.logo-grid li.dare {
+  background-position: 0 0;
+}
+
+ul.logo-grid li.dare:hover {
+  background-position: 0 -267px;
+}
+
+ul.logo-grid li.mw {
+  background-position: -134px 0;
+}
+
+ul.logo-grid li.mw:hover {
+  background-position: -134px -267px;
+}
+
+ul.logo-grid li.cgi {
+  background-position: -268px 0;
+}
+
+ul.logo-grid li.cgi:hover {
+  background-position: -268px -267px;
+}
+
+ul.logo-grid li.woh {
+  background-position: -402px 0;
+}
+
+ul.logo-grid li.woh:hover {
+  background-position: -402px -267px;
+}
+
+ul.logo-grid li.sys {
+  background-position: 0 -89px;
+}
+
+ul.logo-grid li.sys:hover {
+  background-position: 0 -356px;
+}
+
+ul.logo-grid li.crc {
+  background-position: -134px -89px;
+}
+
+ul.logo-grid li.crc:hover {
+  background-position: -134px -356px;
+}
+
+ul.logo-grid li.ut {
+  background-position: -268px -89px;
+}
+
+ul.logo-grid li.ut:hover {
+  background-position: -268px -356px;
+}
+
+ul.logo-grid li.rumaa {
+  background-position: -402px -89px;
+}
+
+ul.logo-grid li.rumaa:hover {
+  background-position: -402px -356px;
+}
+
+ul.logo-grid li.ob {
+  background-position: 0 -178px;
+}
+
+ul.logo-grid li.ob:hover {
+  background-position: 0 -445px;
+}
+
+ul.logo-grid li.shaw {
+  background-position: -134px -178px;
+}
+
+ul.logo-grid li.shaw:hover {
+  background-position: -134px -445px;
+}
+
+ul.logo-grid li.grip {
+  background-position: -268px -178px;
+}
+
+ul.logo-grid li.grip:hover {
+  background-position: -268px -445px;
+}
+
+ul.logo-grid li.aa {
+  background-position: -402px -178px;
+}
+
+ul.logo-grid li.aa:hover {
+  background-position: -402px -445px;
+}
+
+.first {
+  padding-top: 15px;
+  clear: both;
+}
+
 ul.links-social-media {
   padding: 0;
   margin: 0;
