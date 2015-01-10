@@ -298,23 +298,21 @@ footer {
   bottom: 0;
   width: 100%;
   background: #fff;
-  height: 60px;
+  height: 65px;
 }
 
-footer ul.links-social-media {
+footer ul {
+  padding: 0;
   margin: 20px auto;
-  width: 240px;
+  list-style-type: none;
 }
 
-footer ul.links-social-media li {
-  padding-right: 5px;
-  font-size: 13px;
+footer ul li {
+  font-size: 14px;
   color: #999;
+  text-align: center;
 }
 
-footer ul.links-social-media i {
-  font-size: 20px;
-}
 
 .btn {
   font-family: "TolyerLightno2";
