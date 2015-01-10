@@ -162,9 +162,10 @@ ul.logo-grid li {
   background: url('../img/logo-grid.jpg') no-repeat;
 }
 
-ul.logo-grid li {
-  text-indent: 100%;
-  white-space: nowrap;
+ul.logo-grid li a {
+  display: block;
+  height: 100%;
+  text-indent: -999px;
   overflow: hidden;
 }
 
