@@ -164,7 +164,6 @@ ul.logo-grid li {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  transition: background 0.15s ease-in;
 }
 
 ul.logo-grid li:hover {
