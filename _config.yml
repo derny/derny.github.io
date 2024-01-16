@@ -6,12 +6,11 @@ highlighter:         pygments
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Dennis Erny
-tagline:             'Frontend Engineer'
-description:         'Senior Frontend Engineer <a href="http://armchairanalysis.com">NFL Data Analyst</a> and passionate student of UX/UI Design.'
+tagline:             'Senior UI/Frontend Engineer'
+description:         'Senior UI/Frontend Engineer and passionate student of UX/UI Design.'
 url:                 http://lanyon.getpoole.com
 baseurl:             /
 paginate:            3
@@ -19,7 +18,7 @@ paginate:            3
 # About/contact
 author:
   name:              'Dennis Erny'
-  url:               https://twitter.com/denniserny
+  url:               https://www.linkedin.com/in/denniserny
   email:             erny.dennis@gmail.com
 
 github:
